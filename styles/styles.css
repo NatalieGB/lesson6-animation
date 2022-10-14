@@ -1,0 +1,100 @@
+.bgr-image {
+    background-image: url("https://img.freepik.com/premium-vector/sea-blackground_26659-30.jpg?w=2000");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    height: 760px;
+    position: relative;
+}
+.fish1 {
+    height: 80px;
+}
+.fish1-div {
+    bottom: 400px;
+    right: 50px;
+    position: absolute;
+    animation: fish1 15s infinite;
+}
+.shark-bad {
+    width: 500px;
+}
+.shark-div {
+    top: 0px;
+    right: 0px;
+    position: absolute;
+    animation: shark 10s infinite  linear;
+}
+.jelly {
+    width: 200px;
+}
+.jellyfish-div {
+    right: 0px;
+    bottom:200px;
+    position: absolute;
+    animation: jelly 8s infinite ease-out;
+}
+.green-fish {
+    width: 150px;
+}
+.green-fish-div {
+    left: 0px;
+    bottom: 90px;
+    position: absolute;
+    z-index: 1;
+    animation: green-fish 9s infinite linear;
+}
+.fish-school {
+    width: 300px;
+}
+.fish-school-div {
+    left: 0px;
+    bottom: 200px;
+    position: absolute;
+    animation: fish-school 10s infinite;
+}
+.crab {
+    width: 80px;
+}
+.crab-div {
+    bottom: 0px;
+    right: 250px;
+    position: absolute;
+    animation: crab 20s infinite;
+}
+.stringray-div {
+    bottom: 0px;
+    right: 500px;
+    position: absolute;
+    animation: stringrays 6s infinite ease;
+}
+@keyframes fish1 {
+    0% {right:0px}
+    50% {right: 100px; transform: rotate(10deg)}
+    100% {right: 1300px; transform: rotate(0deg)}
+}
+@keyframes shark {
+    from {right: 0px}
+    to {right: 1000px}
+}
+@keyframes jelly {
+    0% {bottom:1000px}
+    50% {left: 600px}
+    100% {left: 1200px}
+}
+@keyframes green-fish {
+    from {left: 0px}
+    to {left: 1300px}
+}
+@keyframes fish-school {
+    from {left: 0}
+    to {left: 1150px}
+}
+@keyframes crab {
+    from {right: 250px}
+    to { right: 1400px}
+}
+@keyframes stringrays {
+    from {bottom: 0px}
+    to {bottom: 750px}
+    
+}
